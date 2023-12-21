@@ -26,7 +26,7 @@ because the only games that i played on browser were memory ones.😅
 
 ## Demo
 
-[Memory game]https://zevinos.github.io/Game-Project-Memory-game/
+[Memory game](https://zevinos.github.io/Game-Project-Memory-game/)
 
 
 
