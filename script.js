@@ -22,6 +22,7 @@ fetch("./data/cards.json")
     shuffleCards();
     generateCards();
   });
+  
 
 function shuffleCards() {
   let currentIndex = cards.length,
@@ -51,6 +52,13 @@ function generateCards() {
     cardElement.addEventListener("click", flipCard);
   }
 }
+function playSoundOnFlipCard(){
+
+  sound.pause()
+  sound.currentTime= 0;
+  sound.play();
+
+}
 
 function flipCard(event) {
   if (!timerRunning) {
@@ -61,8 +69,8 @@ function flipCard(event) {
   console.log(clickedCard);
   const firstCard = pickedCards[0];
   if (clickedCard === firstCard) return;
+  playSoundOnFlipCard()
 
-  sound.play();
   clickedCard.classList.add("flipped");
   pickedCards.push(clickedCard);
   if (pickedCards.length === 1) return;
