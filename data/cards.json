@@ -1,38 +1,38 @@
 [
-    {
-        "image": "../img.src/C.png",
-        "name": "C_logo"
-    },
-    {
-        "image": "../img.src/Chashtag.png",
-        "name": "C#_logo"
-    },
-    {
-        "image": "../img.src/C++.png",
-        "name": "C++_logo"
-    },
-    {
-        "image": "../img.src/java.png",
-        "name": "java_logo"
-    },
-    {
-        "image": "../img.src/Javascript.png",
-        "name": "Javascript_logo"
-    },
-    {
-        "image": "../img.src/Python.png",
-        "name": "Python_logo"
-    },
-    {
-        "image": "../img.src/Ruby.png",
-        "name": "Ruby_logo"
-    },
-    {
-        "image": "../img.src/Shell.png",
-        "name": "Shell_logo"
-    },
-    {
-        "image": "../img.src/TypeScript.png",
-        "name": "TypeScript_logo"
-    }
+  {
+    "image": "./img.src/C.png",
+    "name": "C_logo"
+  },
+  {
+    "image": "./img.src/Chashtag.png",
+    "name": "C#_logo"
+  },
+  {
+    "image": "./img.src/C++.png",
+    "name": "C++_logo"
+  },
+  {
+    "image": "./img.src/java.png",
+    "name": "java_logo"
+  },
+  {
+    "image": "./img.src/Javascript.png",
+    "name": "Javascript_logo"
+  },
+  {
+    "image": "./img.src/Python.png",
+    "name": "Python_logo"
+  },
+  {
+    "image": "./img.src/Ruby.png",
+    "name": "Ruby_logo"
+  },
+  {
+    "image": "./img.src/Shell.png",
+    "name": "Shell_logo"
+  },
+  {
+    "image": "./img.src/TypeScript.png",
+    "name": "TypeScript_logo"
+  }
 ]

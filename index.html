@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title> Memory Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1> Programing Memory Game</h1>
-    <p>Tour(s): <span class="score"></span></p>
-    <div class="grid-container">
-    </div>
-    
-    <div class="actions">
-        <button onclick="restart()">Restart</button>
+    <h1>Programming Memory Game</h1>
+    <div class="wrapper">
+      <p id="scoreLabel">
+        Move(s): <span class="score"> </span> Time left:
+        <span id="timer"></span>
+      </p>
+      <p></p>
+      <dialog close id="loseDialog">
+        <p>Nice try ! That was close !🤡</p>
+        <form method="dialog">
+          <button>close</button>
+        </form>
+      </dialog>
+
+      <dialog close id="winDialog">
+        <p>Well done ! You are such a genius ! 🎉</p>
+        <form method="dialog">
+          <button>close</button>
+        </form>
+      </dialog>
+
+      <div class="grid-container"></div>
+
+      <div class="actions">
+        <button id="restart">Restart</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
